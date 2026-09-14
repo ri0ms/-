@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  /* 블루 스케일 (디자인 가이드 v1) */
+  --blue-50:  #EFF5FD;
+  --blue-100: #DCE9FA;
+  --blue-200: #BBD4F5;
+  --blue-300: #8CB8EE;
+  --blue-400: #5A96E3;
+  --blue-500: #2F76D2;
+  --blue-600: #1F5DB0;
+  --blue-700: #17468A;
+  --blue-800: #123766;
+  --blue-900: #0E2947;
+
+  /* 보조 */
+  --sky-400:    #4DB5F0;
+  --sky-bg:    #E4F4FE;
+  --indigo-500: #5A6BE0;
+  --indigo-bg: #EBEDFC;
+
+  /* 면 */
+  --bg-page:       #E3EDF9;
+  --surface-card:  #FFFFFF;
+  --surface-hover: #F4F8FD;
+  --border:        #E2E9F2;
+
+  /* 글자 */
+  --text-primary:   #0F1B2D;
+  --text-secondary: #5A6B82;
+  --text-muted:     #92A1B5;
+  --text-inverse:   #FFFFFF;
+
+  /* 상태 (블루 치환 예외) */
+  --state-success:  #127A5E;
+  --state-warning:  #B7791F;
+  --state-danger:   #D64545;
+  --state-disabled: #94A3B8;
+
+  /* 반경 */
+  --r-shell: 24px;
+  --r-lg: 20px;
+  --r-md: 16px;
+  --r-sm: 12px;
+  --r-full: 999px;
+
+  /* 그림자 */
+  --shadow-card:  0 1px 2px rgba(14,41,71,0.04), 0 4px 12px rgba(14,41,71,0.06);
+  --shadow-float: 0 8px 24px rgba(14,41,71,0.10);
+
+  /* 레이아웃 */
+  --header-h: 64px;
+  --side-panel-w: 320px;
+  --page-pad: 24px;
+}
+
+body {
+  font-family: Pretendard, 'Malgun Gothic', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* 숫자 폰트 고정폭 */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/* 커스텀 스크롤바 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EFF5FD;
+}
+::-webkit-scrollbar-thumb {
+  background: #BBD4F5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8CB8EE;
+}

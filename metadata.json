@@ -1,0 +1,6 @@
+{
+  "name": "세오 나라장터 입찰공고 대시보드",
+  "description": "(주)세오 MA사업본부 전용 나라장터 입찰공고 분석 및 수주 적합도 점수 산정 대시보드",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
